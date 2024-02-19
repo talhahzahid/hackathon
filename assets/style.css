@@ -52,8 +52,12 @@
     color: #ffffff;
     border: 1px solid #ff0000;
 }
-
 /* hero-section ended */
+#card-btn{
+    background-color: transparent;
+    border: 1px solid red;
+    color: red;
+}
 
 
 
