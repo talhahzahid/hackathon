@@ -1,5 +1,79 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.html {
+    font-size: 62.5%;
+}
+.bg-gray{
+    background-color: #f5ebdc;
+}
+
+/* navbar started */
+#ham-burger {
+    font-size: 30px;
+    /* margin-top: 10px; */
+}
+
+#btn1 {
+    border-radius: 10px;
+    background-color: #ff0000;
+    padding: 8px 16px;
+    font-size: 1rem;
+    color: #ffffff;
+    border: 1px solid #ff0000;
+}
+
+.btn2 {
+    border-radius: 10px;
+    background-color: #502314;
+    padding: 8px 16px;
+    font-size: 1rem;
+    color: #ffffff;
+    border: 1px solid #502314;
+    width: 100px;
+}
+.main-location{
+    margin-left: 30px;
+}
+
+@media(max-width:600px) {
+    .ham-burger {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    #btn1 {
+        font-size: 0.5rem;
+    }
+
+    .logo {
+        margin: auto;
+    }
+
+    .btn2 {
+        display: none;
+    }
+}
+
+@media(max-width:768px) {
+    .ham-burger {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    #btn1 {
+        font-size: 0.5rem;
+    }
+
+    .logo {
+        margin: auto;
+    }
+
+    .btn2 {
+        display: none;
+    }
 }
